@@ -128,7 +128,7 @@ class RAGService:
                     "answer": answer,
                     "sources": [],
                     "confidence": confidence,
-                    "source": "llm"
+                    "source": "llm" 
                 }
             else:
                 # Use RAG as usual

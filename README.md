@@ -27,12 +27,12 @@ pip install -r requirements.txt
 ### 3. Environment Variables
 Create a `.env` file in the project root with the following content:
 ```env
-CLOUDFLARE_API_KEY=your_cloudflare_api_token_here
-CLOUDFLARE_ACCOUNT_ID=your_cloudflare_account_id_here
-CLOUDFLARE_MODEL=@cf/meta/llama-2-7b-chat-fp16
-SECRET_KEY=your_flask_secret_key
 DATABASE_URL=postgresql://ai_user:123@localhost:5432/ai_chat_db
 REDIS_URL=redis://localhost:6379/0
+SECRET_KEY=intern_task_secret_key
+DEBUG=True
+CLOUDFLARE_API_KEY=4g2nZ_JPk7C3wWw6aLiABC4ECKC44EK_vbPSrpAu
+CLOUDFLARE_ACCOUNT_ID=91d07396969bbe837933a876cb257b0c
 ```
 - Replace the values with your actual credentials.
 - The default model is `@cf/meta/llama-2-7b-chat-fp16`, but you can change it if needed.
