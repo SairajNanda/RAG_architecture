@@ -1,0 +1,22 @@
+body {
+    background: #f8f9fa;
+}
+.chat-main {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+    min-height: 80vh;
+}
+.ai-message {
+    background: #e9f5ff;
+    border-radius: 8px;
+    padding: 10px 15px;
+    margin-bottom: 10px;
+}
+.user-message {
+    background: #d1ffd6;
+    border-radius: 8px;
+    padding: 10px 15px;
+    margin-bottom: 10px;
+    text-align: right;
+}
