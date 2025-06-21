@@ -14,7 +14,6 @@ This project is a Flask-based AI chat application that uses Retrieval-Augmented 
 ### 1. Clone the Repository
 ```bash
 git clone https://github.com/SairajNanda/RAG_architecture.git
-cd intern_task
 ```
 
 ### 2. Install Dependencies
